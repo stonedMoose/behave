@@ -6,3 +6,6 @@
 behave_1.2.5.orig.tar.bz2
 80b7bda7f1a1fb2fd275eff419c4574e7173a929
 348877
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"

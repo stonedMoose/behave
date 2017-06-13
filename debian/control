@@ -1,0 +1,66 @@
+Source: behave
+Section: python
+Priority: optional
+Maintainer: Vincent Bernat <bernat@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-python,
+               python-all,
+               python-parse,
+               python-parse-type,
+               python-setuptools,
+               python-six,
+               python3-all,
+               python3-parse,
+               python3-parse-type,
+               python3-setuptools,
+               python3-six,
+               python3-sphinx,
+Standards-Version: 3.9.8
+Homepage: http://github.com/behave/behave
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/behave.git
+Vcs-Browser: https://anonscm.debian.org/git/python-modules/packages/behave.git
+
+Package: python-behave
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+Recommends: ${python:Recommends}
+Suggests: ${python:Suggests}
+Description: behaviour-driven development for Python 2
+ Behavior-driven development (or BDD) is an agile software development
+ technique that encourages collaboration between developers, QA, and
+ non-technical or business participants in a software project.
+ .
+ behave uses tests written in a natural language style, backed up
+ by Python code.
+ .
+ This package contains the modules for Python 2.
+
+Package: python3-behave
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+Recommends: ${python3:Recommends}
+Suggests: ${python3:Suggests}
+Description: behaviour-driven development for Python 3
+ Behavior-driven development (or BDD) is an agile software development
+ technique that encourages collaboration between developers, QA, and
+ non-technical or business participants in a software project.
+ .
+ behave uses tests written in a natural language style, backed up
+ by Python code.
+ .
+ This package contains the modules for Python 3.
+
+Package: python-behave-doc
+Section: doc
+Architecture: all
+Priority: extra
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
+Description: behaviour-driven development, documentation
+ Behavior-driven development (or BDD) is an agile software development
+ technique that encourages collaboration between developers, QA, and
+ non-technical or business participants in a software project.
+ .
+ behave uses tests written in a natural language style, backed up
+ by Python code.
+ .
+ This package contains the documentation.

@@ -1,0 +1,14 @@
+#! /usr/bin/make -f
+
+export PYBUILD_NAME=behave
+export PYBUILD_AFTER_INSTALL_python2=rm -rf {destdir}/usr/bin/
+%:
+	dh $@ --with python2,python3,sphinxdoc --buildsystem=pybuild
+
+override_dh_auto_build-indep:
+ifeq (,$(filter nodoc,$(DEB_BUILD_OPTIONS)))
+	cd docs && \
+	PYTHONPATH=$(CURDIR) http_proxy='http://127.0.0.1:9/' https_proxy='https://127.0.0.1:9/' \
+	sphinx-build -N -E -T -b html . $(CURDIR)/.pybuild/docs/html/
+	rm -rf $(CURDIR)/.pybuild/docs/html/.doctrees
+endif

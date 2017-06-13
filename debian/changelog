@@ -1,0 +1,5 @@
+behave (1.2.5-1) unstable; urgency=low
+
+  * Initial release (closes: #765550)
+
+ -- Vincent Bernat <bernat@debian.org>  Tue, 13 Jun 2017 07:01:28 +0200
