@@ -7,12 +7,12 @@ Files: *
 Copyright: (c) 2012-2014 Benno Rice, Richard Jones, Jens Engel and others, except where noted.
 License: BSD-2
 
-Files: docs/_themes
+Files: docs/_themes/*
 Copyright: (c) 2011 Kenneth Reitz.
            (c) 2010 by Armin Ronacher
 License: BSD-3
 
-Files: tools/i18n.yaml
+Files: tools/i18n.yml
 Copyright: (c) 2009-2011 Mike Sassak, Gregory Hnatiuk, Aslak Hellesøy
 License: Expat
 
