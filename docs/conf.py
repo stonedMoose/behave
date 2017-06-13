@@ -30,7 +30,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.extlinks",
     # -- PYTHON2 SUPPORT ONLY:
-    "sphinxcontrib.cheeseshop",
+    # "sphinxcontrib.cheeseshop",
 ]
 # if six.PY2:
 #     # -- PYTHON2 ONLY: Not ported to python3, yet.
