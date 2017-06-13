@@ -1,0 +1,9 @@
+Document: behave
+Title: Behave Documentation
+Author: Jens Engel
+Abstract: This document describes Behave
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-behave-doc/html/index.html
+Files: /usr/share/doc/python-behave-doc/html/*.html
