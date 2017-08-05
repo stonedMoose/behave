@@ -1,3 +1,11 @@
+behave (1.2.5-2) unstable; urgency=medium
+
+  * debian/patches/0002-Python-3.6-compatibility.patch: Apply patch from
+    upstream to provide compatibility with Python 3.6 and fix
+    FTBFS. Thanks to Logan Rosen for the patch. Closes: #870586.
+
+ -- Vincent Bernat <bernat@debian.org>  Sat, 05 Aug 2017 12:40:02 +0200
+
 behave (1.2.5-1) unstable; urgency=low
 
   * Initial release (closes: #765550)
