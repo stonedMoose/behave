@@ -1,0 +1,25 @@
+From 6c303a1255e86e7c6d8a9f9b958ea83a7db5db70 Mon Sep 17 00:00:00 2001
+From: Vincent Bernat <bernat@debian.org>
+Date: Sat, 5 Aug 2017 12:44:17 +0200
+Subject: Python 3.6 compatibility patch (re.LOCALE removed)
+
+---
+ behave/configuration.py | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/behave/configuration.py b/behave/configuration.py
+index a2563dfbf081..134004c1c950 100644
+--- a/behave/configuration.py
++++ b/behave/configuration.py
+@@ -661,8 +661,10 @@ class Configuration(object):
+         :param names: List of name parts or regular expressions (as text).
+         :return: Compiled regular expression to use.
+         """
++        # -- NOTE: re.LOCALE is removed in Python 3.6 (deprecated in Python 3.5)
++        # flags = (re.UNICODE | re.LOCALE)
+         pattern = u"|".join(names)
+-        return re.compile(pattern, flags=(re.UNICODE | re.LOCALE))
++        return re.compile(pattern, flags=re.UNICODE)
+ 
+     def exclude(self, filename):
+         if isinstance(filename, FileLocation):
