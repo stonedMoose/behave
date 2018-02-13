@@ -1,3 +1,9 @@
+behave (1.2.5-3) UNRELEASED; urgency=medium
+
+  * d/control: Set Vcs-* to salsa.debian.org
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 13 Feb 2018 10:19:08 +0100
+
 behave (1.2.5-2) unstable; urgency=medium
 
   * debian/patches/0002-Python-3.6-compatibility.patch: Apply patch from
