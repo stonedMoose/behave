@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: behave
 Upstream-Contact: Benno Rice, Richard Jones and Jens Engel <behave-users@googlegroups.com>
 Source: http://github.com/behave/behave
