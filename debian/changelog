@@ -2,6 +2,7 @@ behave (1.2.5-3) UNRELEASED; urgency=medium
 
   * d/control: Set Vcs-* to salsa.debian.org
   * d/copyright: Use https protocol in Format field
+  * d/control: Deprecating priority extra as per policy 4.0.1
 
  -- Ondřej Nový <onovy@debian.org>  Tue, 13 Feb 2018 10:19:08 +0100
 

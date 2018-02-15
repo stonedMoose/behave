@@ -60,7 +60,6 @@ Description: behaviour-driven development for Python 3
 Package: python-behave-doc
 Section: doc
 Architecture: all
-Priority: extra
 Depends: ${misc:Depends}, ${sphinxdoc:Depends}
 Description: behaviour-driven development, documentation
  Behavior-driven development (or BDD) is an agile software development
