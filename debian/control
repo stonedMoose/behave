@@ -1,8 +1,7 @@
 Source: behave
 Section: python
 Priority: optional
-Maintainer: Vincent Bernat <bernat@debian.org>
-Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Scibian Project <packaging@scibian.org> 
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
@@ -24,8 +23,8 @@ Build-Depends: debhelper (>= 9),
                python3-sphinx
 Standards-Version: 3.9.8
 Homepage: http://github.com/behave/behave
-Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/behave.git
-Vcs-Browser: https://anonscm.debian.org/git/python-modules/packages/behave.git
+Vcs-Git: https://github.com/scibian/behave
+Vcs-Browser: https://github.com/scibian/behave.git
 
 Package: python-behave
 Architecture: all
