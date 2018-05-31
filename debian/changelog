@@ -2,7 +2,7 @@ behave (1.2.5-2sci9u1) scibian9; urgency=low
 
   * backport for scibian9
 
- -- Julien Lhermite <julien.lhermite@edf.fr> Fri, 11 May 2018 14:53:34 +0200
+ -- Julien Lhermite <julien.lhermite@edf.fr>  Fri, 11 May 2018 14:53:34 +0200
 
 behave (1.2.5-2) unstable; urgency=medium
 
